@@ -138,7 +138,10 @@ button:focus { outline: none; }
 }
 
 /* Background & menu colors */
-.cd-hero-slider li:nth-of-type(1) { background-color: rgba(56, 182, 230, 0.62); }
+/* .cd-hero-slider li:nth-of-type(1) { background-color: rgba(56, 182, 230, 0.62); } */
+.cd-hero-slider li:nth-of-type(1) { background:url('../img/leaves.jpg') ; }
+/* .cd-hero-slider li:nth-of-type(1) { background:repeat; } */
+
 .cd-hero-slider li:nth-of-type(2) { background-color: rgba(237, 84, 76, 0.62); }
 .cd-hero-slider li:nth-of-type(3) { background-color: rgba(234, 163, 25, 0.62); }
 .cd-hero-slider li:nth-of-type(4) { background-color: rgba(22, 181, 163, 0.62); }
@@ -519,7 +522,7 @@ figure.effect-sadie:hover p {
     position: relative;
     display: block;
     max-width: 100%;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .cd-hero-slider h2 { font-size: 1.5em; }
